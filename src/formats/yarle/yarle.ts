@@ -29,6 +29,7 @@ const flow: typeof import('xml-flow') = Platform.isDesktopApp ? require('xml-flo
 export const defaultYarleOptions = {
 	enexSources: [],
 	currentTemplate: '',
+	dateFormat: 'YYYY-MM-DD',
 	outputDir: './mdNotes',
 	isMetadataNeeded: false,
 	isNotebookNameNeeded: false,
